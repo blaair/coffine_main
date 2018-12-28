@@ -389,21 +389,21 @@ header .gnb li ul li a {
 	margin: 0 auto;
 }
 
-.main {
+main {
 	width: 100%;
 }
 
-.main .left_menu {
+main .left_menu {
 	float: left;
 	width: 100px;
 	margin-top: 60px;
 }
 
-.main .left_menu li + li {
+main .left_menu li + li {
 	margin-top: 10px;
 }
 
-.main .left_menu li a {
+main .left_menu li a {
 	display: block;
 	height: 100px;
 	font-size: 15px;
@@ -412,18 +412,18 @@ header .gnb li ul li a {
 	text-align: center;
 }
 
-.main .left_menu li a.line2 {
+main .left_menu li a.line2 {
 	height: 36px;
 	padding: 32px 0;
 	line-height: 18px;
 }
 
-.main .content {
+main .content {
 	float: right;
 	width: 850px;
 }
 
-.main .content h1 {
+main .content h1 {
 	border-bottom: 2px solid #4c4a4b;
 	margin-top: 59px;
 	padding-bottom: 20px;
@@ -432,7 +432,7 @@ header .gnb li ul li a {
 	color: #4c4a4b;
 }
 
-.main .breadcrumb {
+main .breadcrumb {
 	position: absolute;
 	top: 83px;
 	right: 0px;
@@ -440,13 +440,13 @@ header .gnb li ul li a {
 	line-height: 11px;
 }
 
-.main .breadcrumb span {
+main .breadcrumb span {
 	display: inline-block;
 	padding-left: 22px;
 	background: url('../images/page_location_arrow.png') no-repeat 7px 0;
 }
 
-.main .breadcrumb strong {
+main .breadcrumb strong {
 	display: inline-block;
 	padding-left: 21px;
 	background: url('../images/page_location_arrow.png') no-repeat 7px 0;
@@ -573,14 +573,14 @@ footer .ft_speaker {
 /* main page */
 
 /*.main을 지우면 direction 버튼이 전부 보이지 않는 이유?*/
-.main .main_visual .bxslider li {
+main .main_visual .bxslider li {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
 	height: 620px;
 }
 
-.main .main_visual .bxslider li a img {
+main .main_visual .bxslider li a img {
 	position: absolute;
 	position: relative;
 	top: 0;
@@ -592,44 +592,44 @@ footer .ft_speaker {
 	height: 620px;
 }
 
-.main .main_visual .bx-wrapper {
+main .main_visual .bx-wrapper {
 	box-shadow: none;
 	border: 0;
 	background: 0;
 	margin-bottom: 0;
 }
 
-.main .main_visual .bx-controls-direction a {
+main .main_visual .bx-controls-direction a {
 	width: 45px;
 	height: 89px;
 	top: 289px;
 }
 
-.main .main_visual .bx-controls-direction a.bx-prev {
+main .main_visual .bx-controls-direction a.bx-prev {
 	left: 50%;
 	margin-left: -559px;
 	background: url('../images/main_visual_prev.png') no-repeat 0 0;
 }
 
-.main .main_visual .bx-controls-direction a.bx-next {
+main .main_visual .bx-controls-direction a.bx-next {
 	right: 50%;
 	margin-right: -559px;
 	background: url('../images/main_visual_next.png') no-repeat 0 0;
 }
 
-.main .main_visual .bx-wrapper .bx-pager.bx-default-pager {
+main .main_visual .bx-wrapper .bx-pager.bx-default-pager {
 	position: absolute;
 	bottom: 53px;
 	left: 0;
 }
 
-.main .main_visual .bx-wrapper .bx-pager.bx-default-pager a {
+main .main_visual .bx-wrapper .bx-pager.bx-default-pager a {
 	width: 18px;
 	height: 18px;
 	background: url('../images/main_visual_pager_off.png') no-repeat 0 0;
 }
 
-.main .main_visual .bx-wrapper .bx-pager.bx-default-pager a.active {
+main .main_visual .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: url('../images/main_visual_pager_on.png') no-repeat 0 0;
 }
 
